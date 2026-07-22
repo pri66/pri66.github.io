@@ -1,77 +1,125 @@
+/* General Page Style */
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 40px;
-    background-color: #f5f8f5;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+    background-color: #f4f8f4;
     color: #333;
+    line-height: 1.7;
 }
+
+
+/* Headings */
 
 h1 {
     color: #1b5e20;
-    font-size: 40px;
+    font-size: 42px;
+    margin-bottom: 10px;
 }
 
 h2 {
     color: #2e7d32;
+    font-size: 26px;
+    font-weight: normal;
 }
 
 h3 {
-    color: #388e3c;
-}
-
-p, li {
-    font-size: 18px;
-    line-height: 1.6;
-}
-
-ul {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-}
-.project-image {
-    width: 700px;
-    max-width: 100%;
-    border-radius: 10px;
-    margin: 20px 0;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-}
-body {
-    max-width: 900px;
-    margin: auto;
-}
-.project {
-    background-color: white;
-    padding: 25px;
-    margin: 30px 0;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-
-.project h4 {
     color: #1b5e20;
+    font-size: 30px;
+    margin-top: 45px;
+    border-bottom: 2px solid #c8e6c9;
+    padding-bottom: 8px;
+}
+
+h4 {
+    color: #2e7d32;
     font-size: 26px;
 }
 
-.project-image {
-    width: 700px;
-    max-width: 100%;
-    border-radius: 10px;
-    margin: 20px 0;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+
+/* Paragraph */
+
+p {
+    font-size: 18px;
 }
-.project {
-    background-color: white;
-    padding: 25px;
-    margin: 30px 0;
+
+
+/* Skills Box */
+
+ul {
+    background: white;
+    padding: 25px 40px;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
 
-.project h4 {
-    color: #1b5e20;
-    font-size: 24px;
+
+li {
+    font-size: 18px;
+    margin: 8px;
 }
 
-.project p {
-    line-height: 1.7;
+
+
+/* Project Cards */
+
+.project {
+
+    background:white;
+
+    padding:30px;
+
+    margin:35px 0;
+
+    border-radius:15px;
+
+    box-shadow:
+    0 5px 15px rgba(0,0,0,0.15);
+
+}
+
+
+
+/* Project Images */
+
+.project-image {
+
+    display:block;
+
+    width:80%;
+
+    max-width:750px;
+
+    height:auto;
+
+    margin:25px auto;
+
+    border-radius:12px;
+
+    box-shadow:
+    0 4px 10px rgba(0,0,0,0.2);
+
+}
+
+
+
+/* Links */
+
+a {
+
+    color:#1b5e20;
+
+    font-weight:bold;
+
+    text-decoration:none;
+
+}
+
+
+a:hover {
+
+    color:#43a047;
+
 }
